@@ -1,0 +1,47 @@
+{
+    "name" : "Theme Name",
+    "slug" : "theme_slug",
+    "description" : "Your Theme Description",
+    "author" : "Your Theme Author Name",
+    "version" : "1.0.0",
+    "status" : true,
+    "screenshot" : [
+        {
+            "primary" : "primary.jpg",
+            "sort" : "desc"
+        }
+    ],
+    "headerHook" : [
+        {
+            "loadCoreStyle": {
+                "odometer": false,
+                "common": false,
+                "magnific-popup": false
+            },
+            "style" : ["your_theme_css"],
+            "rtl_style": [
+                "rtl"
+            ],
+            "script" : [],
+            "blade" : [],
+            "navbarArea": "navbar",
+            "breadcrumbArea": "breadcrumb"
+        }
+    ],
+    "footerHook" : [
+        {
+            "loadCoreScript": {
+                "odometer": false,
+                "viewport.jquery": false,
+                "main": false
+            },
+            "style" : [],
+            "script" : [
+               "custom_script",
+               "main"
+             ],
+            "blade" : [],
+            "widgetArea": "footer"
+        }
+    ]
+}
