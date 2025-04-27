@@ -8,3 +8,18 @@
 
 \assets\landlord\admin\js\misc.js
 
+# ملف ترتيب القوائم 
+
+core\app\Helpers\SidebarMenuHelper.php
+
+**مثال من داخل الملف**
+
+```private function tenant_payment_settings_menus(MenuWithPermission $menu_instance): void
+    {
+        $menu_instance->add_menu_item('payment-settings-menu-items', [
+            'route' => '#',
+            'label' => __('Payment Settings'),
+            'parent' => null,
+            'permissions' => ['paypal-payment-settings'],
+            'icon' => 'mdi mdi-coin',
+        ]);```
