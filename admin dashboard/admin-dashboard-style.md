@@ -5,5 +5,6 @@
 
  # ملف مسئول عن تحسين التصميم باستخدام CSs&js&php فى لوحة تحكم الإدارة
 \assets\common\css\custom-style.css
+
 \assets\landlord\admin\js\misc.js
 
